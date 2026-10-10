@@ -1,8 +1,8 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <print>
 int main()
 {
-    //[¹®Á¦} ±¸±¸´Ü ÀüÃ¼¸¦ Ãâ·ÂÇÏ¶ó (2~9)
+    //[ë¬¸ì œ} êµ¬êµ¬ë‹¨ ì „ì²´ë¥¼ ì¶œë ¥í•˜ë¼ (2~9)
     int dan;
     for (int dan = 2; dan <= 9; ++dan) {
         for (int i = 1; i <= 9; i++) {
