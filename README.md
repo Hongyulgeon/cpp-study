@@ -34,6 +34,17 @@ cpp-study/
 | `04_nested_loops_gugudan.cpp` | 중첩 반복문으로 구구단 전체 출력 |
 | `05_function_star_pattern.cpp` | 함수로 다이아몬드 별 찍기 |
 
+## Visual Studio에서 열기
+
+1. Visual Studio 2022 시작 화면 → **리포지토리 복제** → `https://github.com/Hongyulgeon/cpp-study`
+   (이미 받아 둔 폴더라면 **로컬 폴더 열기**)
+2. CMake 구성이 끝나면 **솔루션 탐색기**에 폴더 구조 그대로 파일이 보입니다.
+3. 위쪽 **시작 항목** 목록에서 실행할 예제를 고르고 `F5` (예: `09-10_02_gugudan_println.exe`)
+4. 새 예제는 해당 폴더에 `.cpp` 파일만 추가하면 자동으로 실행 목록에 생깁니다.
+
+> 수업 예제의 `save("소스.cpp")`는 CMake로 빌드하면 실행 중인 예제 파일 자체를 `강의저장.txt`에 저장합니다.
+> 일부러 안 되는 예제 3개(VLA, 전역 배열 한계, 시험 문제 메모)는 `CMakeLists.txt`에서 빌드 대상에서 뺐습니다.
+
 ## 개발 환경
 
 - Visual Studio 2022

@@ -6,7 +6,12 @@
 void save(const std::string & fname)
 {
     // 전달된 fname을 읽기 모드로 연다
+#ifdef CPP_STUDY_SOURCE
+    // CMake 빌드에서는 "소스.cpp" 대신 지금 실행 중인 예제 파일을 저장한다
+    std::ifstream in{ CPP_STUDY_SOURCE }; // RAII
+#else
     std::ifstream in{ fname }; // RAII
+#endif
     if (not in) {
         std::cout << fname << " - 열 수 없습니다" << '\n';
         exit(20260903);

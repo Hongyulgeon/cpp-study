@@ -12,3 +12,8 @@ Release/
 
 # 수업 save() 함수가 만드는 저장 파일
 *강의저장.txt
+
+# CMake 빌드 폴더 (Visual Studio 폴더 열기)
+out/
+build/
+CMakeSettings.json
