@@ -1,0 +1,14 @@
+# Visual Studio
+.vs/
+x64/
+x86/
+Debug/
+Release/
+*.user
+*.obj
+*.pdb
+*.ilk
+*.exe
+
+# 수업 save() 함수가 만드는 저장 파일
+*강의저장.txt
